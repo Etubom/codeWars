@@ -5,7 +5,7 @@
 // - remove the item at the specified index
 
 function remove(array,number){
-    
+    //Testing
 }
 
 /* 
