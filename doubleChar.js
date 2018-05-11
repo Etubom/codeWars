@@ -10,6 +10,10 @@ doubleChar("Hello World") ==> "HHeelllloo  WWoorrlldd"
 doubleChar("1234!_ ") ==> "11223344!!__  "
 Good Luck! */
 function doubleChar(str) {
-    'think!!!'// Your code here
-  }
-  
+    for(var i = 0;i < str.length;i++){// Your code here
+        str[i] = str[i][i]
+      }
+      console.log(str);
+      return str
+    }
+  doubleChar('1234!_')
